@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #6c6b6b;
+}
+
+body {
+    margin: 0;
+    display: flex;
+    flex-flow: column;
+    min-height: 100vh;
+}
+
+a {
+    text-decoration: none;
+    color: #38b48b;
+}
+
+.mvt {
+    font-weight: bold;
+}
+
+header {
+    width: 100%;
+    height: 100px;
+    background-color: darkgreen;
+    text-align: center;
+}
+
+header .heading {
+    padding-top: 10px;
+}
+
+header .heading a {
+    color: #fff;
+}
+
+.nav-list {
+    padding: 10px 10px;
+}
+
+.nli {
+    margin: 0 20px;
+    display: inline-block;
+    color: #fff;
+}
+
+main {
+    background-color: #ecfcdf;
+    padding: 10px 40px;
+}
+
+.main-visual {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.self-introduction {
+    display: flex;
+}
+
+.sib{
+    width: 30%;
+    padding-right: 10px;
+}
+
+.sii {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.sibo{
+    display: flex;
+    background-color: #fff;
+    border-radius: 10px;
+    width: 70%;
+    margin: auto 10px;
+    line-height: 40px;
+}
+
+.sif {
+    width: 70%;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sil {
+    font-weight: bold;
+    width: 100px;
+}
+
+
+.social {
+    padding: 0 20px 20px 0;
+}
+
+footer {
+    width: 100%;
+    height: 100px;
+    background-color: darkgreen;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-text {
+    color: #fff;
+
+}
+
+@media screen and (max-width: 768px) {
+    .self-introduction {
+        display: block;
+    }
+    .sib {
+        width: 100%;
+    }
+    .sibo {
+        width: 100%;
+    }
+
+}
